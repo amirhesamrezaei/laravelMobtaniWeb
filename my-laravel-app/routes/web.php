@@ -2,11 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 
-// Route::get('/', function () {
-//     echo("helllllllllllllllllllo");
-// });
 
-Route::resource('user',Usercontroller::class);
+Route::resource('users',Usercontroller::class);
+
+
+
+
 
 
 // Route::get('/users', [UserController::class, 'index'])->name('users.index');
@@ -17,4 +18,9 @@ Route::resource('user',Usercontroller::class);
 // Route::put('/users/{id}', [UserController::class, 'update'])->name('users.update');
 // Route::delete('/users/{id}', [UserController::class, 'destroy'])->name('users.destroy');
 
+
+
+// Route::get('/', function () {
+//     echo("helllllllllllllllllllo");
+// });
 
