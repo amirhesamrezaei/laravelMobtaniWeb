@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 
-Route::resource('users',Usercontroller::class);
+// Route::resource('users',Usercontroller::class);
 
 
 
@@ -20,7 +20,7 @@ Route::resource('users',Usercontroller::class);
 
 
 
-// Route::get('/', function () {
-//     echo("helllllllllllllllllllo");
-// });
+Route::get('/', function () {
+    echo("helllllllllllllllllllo");
+});
 
