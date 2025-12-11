@@ -4,7 +4,7 @@ use App\Http\Controllers\Usercontroller;
 use Illuminate\Support\Facades\Route;
 
 
-// Route::resource('users',Usercontroller::class);
+Route::resource('users',Usercontroller::class);
 
 
 
