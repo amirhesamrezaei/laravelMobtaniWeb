@@ -1,10 +1,14 @@
 <?php
 
+use App\Http\Controllers\CommentController;
+use App\Http\Controllers\PostController;
 use App\Http\Controllers\Usercontroller;
 use Illuminate\Support\Facades\Route;
 
 
 Route::resource('users',Usercontroller::class);
+Route::resource('posts', PostController::class);
+Route::resource('comments', CommentController::class);
 
 
 
